@@ -38,9 +38,9 @@ hacienda-legal/
 Avant commit ou push :
 
 ```bash
+npm run build
 npm test
 npm run typecheck
-npm run build
 npm run branding:check
 git diff --check
 ```
