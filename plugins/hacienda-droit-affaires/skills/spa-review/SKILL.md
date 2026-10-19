@@ -189,10 +189,10 @@ diligences** — doivent être encadrées par des **critères objectifs** et une
 **obligation d'efforts** (reasonable best efforts, montant/type de financement,
 documentation, date butoir, conséquences de l'échec). Une condition dont la
 réalisation dépend de la **seule volonté de l'acquéreur** est **potestative** et
-expose à la nullité (art. 1304 et 1304-3 C.civ : la condition
-suspensive qui dépend de la seule volonté du débiteur est nulle ; rappeler que
-la défaillance de la condition provoquée par la partie qui y avait intérêt est
-réputée accomplie). Côté acquéreur, une CP financement « à sa libre
+expose à la nullité (art. 1304-2 C.civ : l'obligation contractée sous une
+condition dont la réalisation dépend de la seule volonté du débiteur est nulle ;
+rappeler aussi l'art. 1304-3 C.civ : la condition suspensive est réputée
+accomplie si celui qui y avait intérêt en a empêché l'accomplissement). Côté acquéreur, une CP financement « à sa libre
 appréciation » est un faux confort : attaquable et source de contentieux. 🟠/🔴.
 
 ---
@@ -312,9 +312,14 @@ jour des comptes d'associés — renvoyer `closing-checklist-fr` pour l'exécuti
 
 **Formalités sociales.** Pour une cible d'un effectif significatif, vérifier les
 obligations d'**information-consultation du CSE** (art. L.2312-8 / L.2312-37
-C. trav.) et, si les conditions PME sont réunies, l'**information
-des salariés** (art. L.23-10-7 C.com.) — leur omission peut
-fragiliser l'opération. Orienter vers un spécialiste social (hors périmètre de ce plugin).
+C. trav.) et l'**information préalable des salariés** en cas de cession d'une
+participation majoritaire : dans les sociétés sans CSE exerçant les attributions
+de l'art. L.2312-1, al. 2 C. trav., information au plus tard un mois avant la
+vente (art. L.23-10-1 s. C.com.) ; dans les sociétés dotées d'un tel CSE, lire
+la section L.23-10-7 s. C.com. avant de conclure : depuis le 28 mai 2026, le
+texte de L.23-10-7 vise la consultation du CSE sur la vente d'un fonds de
+commerce et ne doit pas être cité pour une cession de titres sans lecture
+`[review]`. Leur omission peut fragiliser l'opération. Orienter vers un spécialiste social (hors périmètre de ce plugin).
 
 **Sanctions contractuelles.** Vérifier que le leakage, la violation des covenants
 intercalaires et la non-concurrence sont assortis de **sanctions efficaces**
