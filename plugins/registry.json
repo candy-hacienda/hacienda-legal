@@ -1,0 +1,52 @@
+{
+  "plugins": [
+    {
+      "name": "hacienda-droit-affaires",
+      "type": "legal-domain-with-mcp",
+      "source": "./plugins/hacienda-droit-affaires",
+      "description": "Droit des affaires français : contrats commerciaux (revue, NDA, CGV/CGU, mise en demeure, rupture brutale L.442-1 II), vie sociale (constitution, assemblées, pacte d'associés, financement startup), M&A de la LOI au closing avec lentille Private Equity / LBO (DD red flags, SPA, GAP, management package), entreprises en difficulté côté créancier, dirigeant et repreneur (prévention, cessation des paiements, déclaration de créance, pre-pack, reprise à la barre, responsabilité du dirigeant), veille BODACC, jurisprudentielle et échéances sociétaires. Brouillons ancrés dans les textes français, soumis à validation humaine.",
+      "skills": [
+        "entretien-demarrage",
+        "reviser-contrat",
+        "reviser-nda",
+        "liste-de-points",
+        "revue-tabulaire",
+        "spa-review",
+        "gap-review",
+        "declaration-creance",
+        "verifier-citations",
+        "pacte-associes-review",
+        "constitution-societe",
+        "gouvernance-ag",
+        "loi-term-sheet",
+        "due-diligence-dataroom",
+        "closing-checklist-fr",
+        "cgv-generator",
+        "financement-startup",
+        "consulter-digest",
+        "analyser-rupture-brutale",
+        "asset-vs-share-distress",
+        "cas",
+        "cession-actifs-isoles",
+        "declaration-cessation-paiements",
+        "defense-dirigeant",
+        "distress-cedant",
+        "management-package-pe",
+        "mise-en-demeure-commerciale",
+        "pre-pack-cession",
+        "prevention-difficultes",
+        "reprise-a-la-barre",
+        "responsabilite-dirigeant"
+      ],
+      "agents": [
+        "bodacc-watcher",
+        "bodacc-procedures-watcher",
+        "echeances-societaires",
+        "veille-jurisprudence"
+      ],
+      "mcp": {
+        "mode": "own-stdio-server"
+      }
+    }
+  ]
+}

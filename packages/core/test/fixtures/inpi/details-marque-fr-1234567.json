@@ -1,0 +1,33 @@
+{
+  "numero": "FR1234567",
+  "signe": "APEXLEAF",
+  "type": "mot",
+  "classes": ["25", "35"],
+  "titulaire": "ACME SAS",
+  "mandataire": null,
+  "statut": "enregistree",
+  "dateDepot": "2020-01-15",
+  "dateEnregistrement": "2020-08-01",
+  "dateExpiration": "2030-01-15",
+  "oppositions": [
+    {
+      "numero": "OPP-2020-001",
+      "opposant": "BETA SARL",
+      "dateOpposition": "2020-04-12",
+      "motifs": ["risque_confusion"],
+      "decision": "rejet"
+    }
+  ],
+  "historique": [
+    {
+      "date": "2020-01-15",
+      "type": "depot",
+      "description": "Dépôt initial"
+    },
+    {
+      "date": "2020-08-01",
+      "type": "enregistrement",
+      "description": "Enregistrement"
+    }
+  ]
+}

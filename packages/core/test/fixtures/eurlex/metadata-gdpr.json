@@ -1,0 +1,29 @@
+{
+  "head": {
+    "vars": ["celex", "title", "dateDocument", "dateEffect", "type", "author", "eurovoc", "directoryCode"]
+  },
+  "results": {
+    "bindings": [
+      {
+        "celex": { "type": "literal", "value": "32016R0679" },
+        "title": { "type": "literal", "value": "Règlement général sur la protection des données" },
+        "dateDocument": { "type": "literal", "value": "2016-04-27" },
+        "dateEffect": { "type": "literal", "value": "2018-05-25" },
+        "type": { "type": "literal", "value": "regulation" },
+        "author": { "type": "literal", "value": "Parlement européen" },
+        "eurovoc": { "type": "literal", "value": "protection des données" },
+        "directoryCode": { "type": "literal", "value": "13.20.60.00" }
+      },
+      {
+        "celex": { "type": "literal", "value": "32016R0679" },
+        "title": { "type": "literal", "value": "Règlement général sur la protection des données" },
+        "dateDocument": { "type": "literal", "value": "2016-04-27" },
+        "dateEffect": { "type": "literal", "value": "2018-05-25" },
+        "type": { "type": "literal", "value": "regulation" },
+        "author": { "type": "literal", "value": "Conseil de l'Union européenne" },
+        "eurovoc": { "type": "literal", "value": "vie privée" },
+        "directoryCode": { "type": "literal", "value": "13.20.60.00" }
+      }
+    ]
+  }
+}

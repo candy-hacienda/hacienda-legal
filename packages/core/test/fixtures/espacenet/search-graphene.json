@@ -1,0 +1,38 @@
+{
+  "resultats": [
+    {
+      "numero": "EP1234567",
+      "type": "EP",
+      "titre": "Method for producing a graphene-based filtration membrane",
+      "classificationCIB": ["B01D 71/02", "B01D 69/02"],
+      "deposant": "GAMMA INDUSTRIES GMBH",
+      "datePublication": "2023-07-12",
+      "datePriorite": "2021-01-12",
+      "abregeText": "A two-step process for obtaining a graphene membrane with controlled porosity.",
+      "urlEspacenet": "https://worldwide.espacenet.com/patent/search/family/EP1234567"
+    },
+    {
+      "numero": "WO2020/123456",
+      "type": "WO",
+      "titre": "Graphene oxide membrane for water desalination",
+      "classificationCIB": ["B01D 71/02", "C02F 1/44"],
+      "deposant": "OMEGA RESEARCH LTD",
+      "datePublication": "2020-06-25",
+      "datePriorite": "2019-12-18",
+      "abregeText": "Composite membrane integrating graphene oxide sheets for selective ion rejection.",
+      "urlEspacenet": "https://worldwide.espacenet.com/patent/search/family/WO2020123456"
+    },
+    {
+      "numero": "US10987654",
+      "type": "US",
+      "titre": "Graphene-coated porous substrate and method of manufacture",
+      "classificationCIB": ["B01D 71/02"],
+      "deposant": "EPSILON CORP",
+      "datePublication": "2022-03-29",
+      "datePriorite": "2020-11-30",
+      "abregeText": null,
+      "urlEspacenet": "https://worldwide.espacenet.com/patent/search/family/US10987654"
+    }
+  ],
+  "totalCount": 3
+}

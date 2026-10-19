@@ -1,0 +1,50 @@
+{
+  "manifest_version": "0.3",
+  "name": "hacienda-droit-affaires",
+  "display_name": "Hacienda Droit des Affaires",
+  "version": "0.15.0",
+  "description": "Connecteur MCP local Hacienda pour les workflows de droit des affaires : contrats commerciaux, M&A, droit des societes, procedures collectives, BODACC, Pappers et recherche juridique officielle.",
+  "author": {
+    "name": "Hacienda",
+    "url": "https://hacienda.diy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candy-hacienda/hacienda-legal"
+  },
+  "homepage": "https://hacienda.diy",
+  "documentation": "https://github.com/candy-hacienda/hacienda-legal/tree/main/plugins/hacienda-droit-affaires",
+  "support": "https://github.com/candy-hacienda/hacienda-legal/issues",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "hacienda",
+    "droit-affaires",
+    "mcp",
+    "contrats-commerciaux",
+    "ma",
+    "droit-societes",
+    "procedures-collectives",
+    "bodacc",
+    "pappers"
+  ],
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32"
+    ],
+    "runtimes": {
+      "node": ">=20.0.0"
+    }
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "mcp-server/dist/mcpb-index.cjs",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/mcp-server/dist/mcpb-index.cjs"
+      ]
+    }
+  },
+  "tools_generated": true
+}

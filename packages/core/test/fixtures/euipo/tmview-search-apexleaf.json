@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "numero": "EM018000001",
+      "signe": "APEXLEAF",
+      "office": "EM",
+      "classes": ["25"],
+      "titulaire": "ACME EU LTD",
+      "statut": "Registered",
+      "dateDepot": "2021-05-01",
+      "dateExpiration": "2031-05-01",
+      "urlOffice": "https://euipo.europa.eu/eSearch/#details/trademarks/018000001"
+    },
+    {
+      "numero": "FR9876543",
+      "signe": "APEXLEAF",
+      "office": "FR",
+      "classes": ["25", "35"],
+      "titulaire": "ACME SAS",
+      "statut": "Registered",
+      "dateDepot": "2020-01-15",
+      "dateExpiration": "2030-01-15",
+      "urlOffice": "https://data.inpi.fr/marques/FR9876543"
+    }
+  ],
+  "totalCount": 2
+}

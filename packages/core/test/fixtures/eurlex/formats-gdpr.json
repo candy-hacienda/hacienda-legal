@@ -1,0 +1,16 @@
+[
+  {
+    "celexId": "32016R0679",
+    "language": "FRA",
+    "format": "xhtml",
+    "url": "https://publications.europa.eu/resource/cellar/gdpr/full",
+    "contentType": "application/xhtml+xml"
+  },
+  {
+    "celexId": "32016R0679",
+    "language": "FRA",
+    "format": "pdf",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32016R0679",
+    "contentType": "application/pdf"
+  }
+]

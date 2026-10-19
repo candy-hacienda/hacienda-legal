@@ -1,0 +1,30 @@
+{
+  "resultats": [
+    {
+      "numero": "FR1234567",
+      "signe": "APEXLEAF",
+      "type": "mot",
+      "classes": ["25"],
+      "titulaire": "ACME SAS",
+      "mandataire": null,
+      "statut": "enregistree",
+      "dateDepot": "2020-01-15",
+      "dateEnregistrement": "2020-08-01",
+      "dateExpiration": "2030-01-15"
+    },
+    {
+      "numero": "FR2345678",
+      "signe": "APEXLEAFY",
+      "type": "mot",
+      "classes": ["25"],
+      "titulaire": "GAMMA SAS",
+      "mandataire": null,
+      "statut": "deposee",
+      "dateDepot": "2024-03-10",
+      "dateEnregistrement": null,
+      "dateExpiration": null
+    }
+  ],
+  "total": 2,
+  "dateBase": "2026-05-09"
+}

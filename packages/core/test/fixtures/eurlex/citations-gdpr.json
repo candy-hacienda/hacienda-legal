@@ -1,0 +1,21 @@
+{
+  "head": { "vars": ["kind", "sourceCelex", "targetCelex", "title", "date"] },
+  "results": {
+    "bindings": [
+      {
+        "kind": { "type": "literal", "value": "amended_by" },
+        "sourceCelex": { "type": "literal", "value": "32016R0679" },
+        "targetCelex": { "type": "literal", "value": "32018R1725" },
+        "title": { "type": "literal", "value": "Règlement modificateur" },
+        "date": { "type": "literal", "value": "2018-10-23" }
+      },
+      {
+        "kind": { "type": "literal", "value": "basis" },
+        "sourceCelex": { "type": "literal", "value": "32016R0679" },
+        "targetCelex": { "type": "literal", "value": "12012E016" },
+        "title": { "type": "literal", "value": "Base juridique TFUE" },
+        "date": { "type": "literal", "value": "2012-10-26" }
+      }
+    ]
+  }
+}

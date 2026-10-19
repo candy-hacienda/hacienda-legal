@@ -1,0 +1,25 @@
+node_modules/
+.worktrees/
+dist/
+# Bundles plugins committed pour install marketplace sans build (esbuild --bundle, self-contained)
+!plugins/*/mcp-server/dist/
+!plugins/*/mcp-server/dist/**
+.cache/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.local
+.claude/settings.local.json
+.DS_Store
+coverage/
+*.log
+dist-pkg/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+
+.claude/
+
+# Résultats de `claude plugin eval` (rapports locaux, non versionnés)
+plugins/*/evals/results/

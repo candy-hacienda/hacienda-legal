@@ -1,0 +1,17 @@
+{
+  "name": "hacienda-droit-affaires-marketplace",
+  "owner": { "name": "Hacienda" },
+  "metadata": {
+    "description": "Plugin droit des affaires français pour cabinets M&A et indépendants procédures collectives",
+    "version": "0.20.0"
+  },
+  "plugins": [{
+    "name": "hacienda-droit-affaires",
+    "description": "Droit des affaires français : contrats commerciaux (revue, NDA, CGV, mise en demeure, rupture brutale), vie sociale (constitution, assemblées, pacte d'associés, financement startup), M&A de la LOI au closing avec lentille Private Equity, entreprises en difficulté côté créancier, dirigeant et repreneur (déclaration de créance, pre-pack, reprise à la barre), veille BODACC et jurisprudence. Brouillons ancrés dans les textes français, soumis à validation humaine.",
+    "version": "0.20.0",
+    "source": "./",
+    "category": "droit-des-affaires",
+    "tags": ["ma-corporate", "contrats", "procedures-collectives"],
+    "author": { "name": "Hacienda" }
+  }]
+}

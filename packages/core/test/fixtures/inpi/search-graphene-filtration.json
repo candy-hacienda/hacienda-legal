@@ -1,0 +1,51 @@
+{
+  "resultats": [
+    {
+      "numero": "FR2700123",
+      "type": "FR",
+      "titre": "Membrane de filtration à base d'oxyde de graphène pour traitement des eaux",
+      "classificationCIB": ["B01D 71/02", "C01B 32/19"],
+      "deposant": "ACME SAS",
+      "inventeurs": ["Jean Dupont", "Marie Martin"],
+      "mandataire": "Cabinet Lambda",
+      "statut": "delivree",
+      "dateDepot": "2020-03-14",
+      "datePublication": "2021-09-17",
+      "dateDelivrance": "2023-05-09",
+      "datePriorite": "2020-03-14",
+      "abregeText": "Membrane composite intégrant des feuillets d'oxyde de graphène pour la rétention de polluants organiques."
+    },
+    {
+      "numero": "EP1234567",
+      "type": "EP",
+      "titre": "Procédé de fabrication d'une membrane graphène pour filtration sélective",
+      "classificationCIB": ["B01D 71/02", "B01D 69/02"],
+      "deposant": "GAMMA INDUSTRIES GMBH",
+      "inventeurs": ["Hans Müller"],
+      "mandataire": null,
+      "statut": "publiee",
+      "dateDepot": "2022-01-10",
+      "datePublication": "2023-07-12",
+      "dateDelivrance": null,
+      "datePriorite": "2021-01-12",
+      "abregeText": "Procédé en deux étapes pour l'obtention d'une membrane graphène à porosité contrôlée."
+    },
+    {
+      "numero": "FR2812345",
+      "type": "FR",
+      "titre": "Dispositif de filtration aqueuse à membrane carbonée",
+      "classificationCIB": ["B01D 71/02"],
+      "deposant": "DELTA SAS",
+      "inventeurs": ["Pierre Bernard"],
+      "mandataire": "Cabinet Mu",
+      "statut": "demande",
+      "dateDepot": "2025-11-04",
+      "datePublication": null,
+      "dateDelivrance": null,
+      "datePriorite": "2025-11-04",
+      "abregeText": null
+    }
+  ],
+  "total": 3,
+  "dateBase": "2026-05-09"
+}

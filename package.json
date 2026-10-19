@@ -1,0 +1,32 @@
+{
+  "name": "hacienda-juridique",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Place de marche Hacienda pour plugins juridiques francais.",
+  "workspaces": [
+    "packages/*",
+    "plugins/*/mcp-server",
+    "tools/hacienda-plugin-factory"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "branding:check": "node scripts/check-branding.mjs",
+    "plugin:validate": "npm --workspace @hacienda/plugin-factory run validate",
+    "plugin:docs": "npm --workspace @hacienda/plugin-factory run docs",
+    "plugin:create": "npm --workspace @hacienda/plugin-factory run create --",
+    "plugin:add-skill": "npm --workspace @hacienda/plugin-factory run add-skill --",
+    "plugin:add-agent": "npm --workspace @hacienda/plugin-factory run add-agent --",
+    "plugin:compare-claude-legal": "npm --workspace @hacienda/plugin-factory run compare-claude-legal --",
+    "plugin:package-cowork": "npm --workspace @hacienda/plugin-factory run package-cowork --",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm --workspace @hacienda/core run build && npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Hacienda (https://hacienda.diy)",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}

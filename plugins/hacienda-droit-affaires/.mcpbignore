@@ -1,0 +1,11 @@
+.cache/**
+logs/**
+*.log
+*.bak
+*.zip
+*.mcpb
+node_modules/**
+mcp-server/src/**
+mcp-server/tsconfig.json
+mcp-server/dist/index.js
+mcp-server/dist/version.js

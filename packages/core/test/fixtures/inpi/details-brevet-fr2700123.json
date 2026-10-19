@@ -1,0 +1,27 @@
+{
+  "numero": "FR2700123",
+  "type": "FR",
+  "titre": "Membrane de filtration à base d'oxyde de graphène pour traitement des eaux",
+  "classificationCIB": ["B01D 71/02", "C01B 32/19"],
+  "deposant": "ACME SAS",
+  "inventeurs": ["Jean Dupont", "Marie Martin"],
+  "mandataire": "Cabinet Lambda",
+  "statut": "delivree",
+  "dateDepot": "2020-03-14",
+  "datePublication": "2021-09-17",
+  "dateDelivrance": "2023-05-09",
+  "datePriorite": "2020-03-14",
+  "abregeText": "Membrane composite intégrant des feuillets d'oxyde de graphène pour la rétention de polluants organiques.",
+  "revendications": [
+    "1. Membrane de filtration caractérisée en ce qu'elle comprend au moins une couche d'oxyde de graphène déposée sur un support poreux en polysulfone.",
+    "2. Membrane selon la revendication 1, caractérisée en ce que l'épaisseur de la couche d'oxyde de graphène est comprise entre 50 nm et 500 nm.",
+    "3. Procédé de fabrication d'une membrane selon la revendication 1, comprenant les étapes de (a) dispersion d'oxyde de graphène en solution aqueuse, (b) filtration sous vide sur le support poreux, (c) séchage à température ambiante.",
+    "4. Utilisation d'une membrane selon l'une quelconque des revendications 1 à 2 pour la rétention de polluants organiques dans le traitement des eaux usées."
+  ],
+  "historique": [
+    { "date": "2020-03-14", "type": "depot", "description": "Dépôt de la demande FR2700123 à l'INPI" },
+    { "date": "2021-09-17", "type": "publication", "description": "Publication de la demande au BOPI" },
+    { "date": "2022-11-22", "type": "rapport_recherche", "description": "Rapport de recherche établi par l'INPI" },
+    { "date": "2023-05-09", "type": "delivrance", "description": "Délivrance du brevet" }
+  ]
+}

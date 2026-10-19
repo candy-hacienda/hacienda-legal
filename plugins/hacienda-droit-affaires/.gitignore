@@ -1,0 +1,8 @@
+# Runtime logs stay local.
+*.log
+logs/*.log
+logs/*.jsonl
+
+# Local OS/editor noise.
+.DS_Store
+Thumbs.db

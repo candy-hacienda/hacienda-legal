@@ -1,0 +1,17 @@
+{
+  "head": { "vars": ["celex", "title", "dateVersion"] },
+  "results": {
+    "bindings": [
+      {
+        "celex": { "type": "literal", "value": "02016R0679-20160504" },
+        "title": { "type": "literal", "value": "Règlement général sur la protection des données - version consolidée" },
+        "dateVersion": { "type": "literal", "value": "2016-05-04" }
+      },
+      {
+        "celex": { "type": "literal", "value": "02016R0679-20180525" },
+        "title": { "type": "literal", "value": "Règlement général sur la protection des données - version applicable" },
+        "dateVersion": { "type": "literal", "value": "2018-05-25" }
+      }
+    ]
+  }
+}

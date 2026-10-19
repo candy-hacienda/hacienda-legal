@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hacienda-juridique",
+  "description": "marketplace de plugins juridiques francais Hacienda pour workflows avocats, juristes et equipes legal ops.",
+  "owner": {
+    "name": "Hacienda",
+    "url": "https://hacienda.diy"
+  },
+  "plugins": [
+    {
+      "name": "hacienda-droit-affaires",
+      "source": "./plugins/hacienda-droit-affaires",
+      "description": "Droit des affaires français : contrats commerciaux (revue, NDA, CGV, mise en demeure, rupture brutale), vie sociale (constitution, assemblées, pacte d'associés, financement startup), M&A de la LOI au closing avec lentille Private Equity, entreprises en difficulté côté créancier, dirigeant et repreneur (déclaration de créance, pre-pack, reprise à la barre), veille BODACC et jurisprudence. Brouillons ancrés dans les textes français, soumis à validation humaine.",
+      "author": {
+        "name": "Hacienda",
+        "url": "https://hacienda.diy"
+      }
+    }
+  ]
+}

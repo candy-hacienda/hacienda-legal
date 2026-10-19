@@ -1,0 +1,21 @@
+{
+  "head": {
+    "vars": ["celex", "title", "date", "type"]
+  },
+  "results": {
+    "bindings": [
+      {
+        "celex": { "type": "literal", "value": "32024R1689" },
+        "title": { "type": "literal", "value": "Règlement sur l'intelligence artificielle" },
+        "date": { "type": "literal", "value": "2024-06-13" },
+        "type": { "type": "literal", "value": "regulation" }
+      },
+      {
+        "celex": { "type": "literal", "value": "32024R1689" },
+        "title": { "type": "literal", "value": "Règlement sur l'intelligence artificielle" },
+        "date": { "type": "literal", "value": "2024-06-13" },
+        "type": { "type": "literal", "value": "regulation" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "head": { "vars": ["concept", "label"] },
+  "results": {
+    "bindings": [
+      {
+        "concept": { "type": "uri", "value": "http://eurovoc.europa.eu/1234" },
+        "label": { "type": "literal", "value": "protection des données" }
+      },
+      {
+        "concept": { "type": "uri", "value": "http://eurovoc.europa.eu/5678" },
+        "label": { "type": "literal", "value": "vie privée" }
+      }
+    ]
+  }
+}
