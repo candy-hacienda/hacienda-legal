@@ -72,12 +72,14 @@ npm run plugin:add-agent -- --plugin hacienda-exemple --agent veilleur-exemple
 
 ```bash
 npm install
+npm run build
 npm test
 npm run typecheck
-npm run build
 npm run branding:check
 git diff --check
 ```
+
+Le build doit précéder les tests : les tests de fumée utilisent le socle compilé.
 
 ## Licence
 
