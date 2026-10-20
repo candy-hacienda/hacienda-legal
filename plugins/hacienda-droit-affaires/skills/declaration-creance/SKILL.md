@@ -4,7 +4,7 @@ description: >
   Rédige une déclaration de créance art. L.622-24 C.com. dans le cadre d'une
   procédure collective (sauvegarde, redressement, liquidation). Calcule
   automatiquement la date de forclusion (2 mois post-publication BODACC,
-  4 mois si créancier hors UE/EEE). Lookup BODACC via
+  4 mois si le créancier ne demeure pas sur le territoire de la juridiction, art. R.622-24). Lookup BODACC via
   `bodacc_procedures` de `@hacienda/core` pour récupérer
   type de procédure, date jugement, date publication et mandataire désigné
   (lus sur l'avis d'ouverture désigné par l'outil, fallback `[à vérifier]`).
@@ -58,7 +58,7 @@ Veux-tu que je prépare la trame de la requête en relevé ? (validation humaine
 <example>
 <user>/h-da:declaration-creance --siren=456789123 --montant=240000 --nature=prestation --etranger=true</user>
 <response>
-Créancier hors UE/EEE → délai 4 mois.
+Créancier ne demeurant pas en France métropolitaine (tribunal métropolitain) → délai 4 mois.
 BODACC : sauvegarde publiée 10 avril 2026 `[BODACC]`.
 Forclusion : 10 avril + 4 mois = 10 août 2026 → 84 jours restants → 🟢.
 Mandataire : `[à vérifier]` (absent du complément du jugement d'ouverture — vérifier sur l'annonce BODACC publiée).
@@ -90,7 +90,7 @@ Si le bloc est `[A CONFIGURER]` : stopper et demander `/h-da:entretien-demarrage
 4. **Justificatifs** (optionnel) — `--docs=./facture.pdf,./bon-livraison.pdf`
 5. **Date naissance créance** (optionnel) — si omise et nécessaire au calcul intérêts, demander avant de poursuivre
 6. **Privilège revendiqué** (optionnel) — `--privilege=conservateur|nantissement|hypotheque|vendeur|fiscal|social|...`
-7. **Créancier étranger** (optionnel) — `--etranger=true` pour créancier domicilié hors France métropolitaine/UE/EEE (délai porté à 4 mois)
+7. **Créancier étranger** (optionnel) — `--etranger=true` pour un créancier qui ne demeure pas sur le territoire de la juridiction : France métropolitaine pour un tribunal métropolitain, le département ou la collectivité d'outre-mer pour un tribunal ultramarin (délai porté à 4 mois, art. R.622-24). Un créancier d'un autre État de l'UE en relève aussi
 
 Si `--siren` ou `--montant` absent : stopper et demander explicitement. Pas de valeur par défaut.
 
@@ -158,7 +158,7 @@ Tags de provenance : `[BODACC]` pour tout champ extrait, `[à vérifier]` pour t
 ```
 date_publication_bodacc = avis_ouverture.dateparution (BODACC — avis du jugement d'ouverture)
 delai_base = 2 mois
-si creancier_etranger (hors France/UE/EEE) : delai_base = 4 mois (art. R.622-24 C.com.)
+si creancier_etranger (ne demeure pas sur le territoire de la juridiction : métropole, ou DOM / collectivité d'outre-mer) : delai_base = 4 mois (art. R.622-24 C.com.)
 
 date_forclusion = date_publication_bodacc + delai_base
 si date_forclusion tombe un samedi, dimanche ou jour férié : prorogée au premier jour ouvrable suivant (art. 642 CPC)
@@ -324,7 +324,7 @@ Complète l'étape 4 bis pour les articles cités en cours de rédaction. Articl
 
 # 🟢/🟠/🔴/🔴🔴 Statut forclusion
 - Date publication BODACC : [date]
-- Délai applicable : 2 mois (ou 4 mois si créancier étranger)
+- Délai applicable : 2 mois (ou 4 mois si le créancier ne demeure pas sur le territoire de la juridiction, art. R.622-24)
 - Date forclusion : [date **prorogée au 1er jour ouvrable suivant si elle tombe un week-end / jour férié — art. 642 CPC** ; indiquer la date brute entre parenthèses si prorogation appliquée]
 - Jours restants : [N]
 - Action recommandée : [envoi normal / prioritaire / URGENT / requête en relevé L.622-26]

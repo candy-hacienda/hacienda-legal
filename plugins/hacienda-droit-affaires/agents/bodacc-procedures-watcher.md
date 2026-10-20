@@ -84,9 +84,10 @@ Format : `{ "<siren>": { "last_seen_ids": ["<id>"], "updated": "YYYY-MM-DD" } }`
 Règle déterministe — aucune fuzzy logic :
 
 ```
-date_forclusion = date_publication_bodacc + 60 jours
-si creancier_etranger = true :
-    date_forclusion += 60 jours  # total 120 j — art. R.622-24 C.com. [à vérifier]
+date_forclusion = date_publication_bodacc + 2 mois   # art. R.622-24 C.com.
+si creancier_etranger = true :  # ne demeure pas en France métropolitaine (tribunal métropolitain)
+                                # ni dans le DOM / la collectivité (tribunal ultramarin)
+    date_forclusion += 2 mois  # total 4 mois — art. R.622-24 C.com.
 jours_restants = date_forclusion - today
 ```
 
@@ -129,8 +130,8 @@ Débiteur        : SIREN {siren}
 Procédure       : {avis_ouverture.nature} — jugement du {date_jugement_ouverture}
 Publication BODACC : {date_publication_bodacc}                   [BODACC]
 Date forclusion : {date_forclusion}
-  (pub. BODACC + 60 j — art. L.622-24 C.com.)                   [Légifrance]
-  {si creancier_etranger : "+ 60 j étranger — art. R.622-24 [à vérifier]"}
+  (pub. BODACC + 2 mois — art. R.622-24 C.com.)                 [Légifrance]
+  {si creancier_etranger : "+ 2 mois, créancier hors du territoire de la juridiction — art. R.622-24"}
 Mandataire      : {lu dans avis_ouverture.complement} ou [à vérifier]                  [BODACC]
 
 Action OBLIGATOIRE avant le {date_forclusion} :
