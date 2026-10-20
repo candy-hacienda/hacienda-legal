@@ -128,7 +128,7 @@ laissé en `[a compléter]`.
 | L.622-26 | Relevé de forclusion | [a compléter] | Procédure hors délai |
 | L.622-28 | Arrêt du cours des intérêts et majorations au jugement d'ouverture | LEGIARTI000032042779 | Intérêts légaux et conventionnels + intérêts de retard + majorations arrêtés ; exception : prêts ≥ 1 an et délais de paiement ≥ 1 an |
 | L.622-29 | Non-exigibilité des créances non échues au jugement d'ouverture | LEGIARTI000006236741 | Le jugement d'ouverture ne rend pas exigibles les créances non échues ; toute clause contraire réputée non écrite |
-| R.622-24 | Délai déclaration de créance — créancier hors France/UE/EEE (4 mois) | LEGIARTI000029175247 | Délai porté à 4 mois vs 2 mois de droit commun L.622-24 |
+| R.622-24 | Délai déclaration de créance : 2 mois après la publication BODACC, + 2 mois pour le créancier qui ne demeure pas sur le territoire de la juridiction (France métropolitaine, ou le département / la collectivité d'outre-mer) | LEGIARTI000029175247 | Le critère est la demeure du créancier hors de ce territoire, pas « hors UE/EEE » : un créancier allemand ou martiniquais devant un tribunal métropolitain a 4 mois |
 | L.631-1 | Redressement judiciaire | [a compléter] | Qualification de procédure |
 | L.632-1 | Nullités de droit de la période suspecte | [a compléter] | Actes à titre gratuit, contrats déséquilibrés, paiements de dettes non échues, sûretés pour dettes antérieures — annulation de plein droit |
 | L.632-2 | Nullités facultatives de la période suspecte | [a compléter] | Paiements de dettes échues et actes à titre onéreux annulables si le cocontractant connaissait la cessation des paiements |
